@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
         WebView wv = (WebView) findViewById(R.id.webView);
         wv.setWebChromeClient(new WebChromeClient());
         wv.getSettings().setJavaScriptEnabled(true);
-        wv.loadUrl("http://www.pcschool.com.tw");
+        wv.loadUrl("file:///android_asset/index.htm");
     }
 }
