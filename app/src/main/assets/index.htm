@@ -1,0 +1,25 @@
+<html>
+<head>
+    <script language="JavaScript">
+        function calc()
+        {
+            var q1 = document.getElementById("q1");
+            q1num = eval(q1.value);
+            var q2 = document.getElementById("q2");
+            q2num = eval(q2.value);
+            var ans = q1num + q2num;
+            document.getElementById("ans").innerHTML = ans;
+
+        }
+    </script>
+
+</head>
+<body>
+<p>Hello World</p>
+<input type="text" id="q1" /> +
+<input type="text" id="q2" />
+<input type="button" id="calc" onclick="calc()" />
+<span id="ans" />
+<img src="flower.jpg" />
+</body>
+</html>
